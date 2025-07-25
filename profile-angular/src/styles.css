@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdnb.artstation.com%2Fp%2Fassets%2Fimages%2Fimages%2F014%2F665%2F033%2Foriginal%2Fyargon-kerman-webp-net-gifmaker-39.gif%3F1544919451&f=1&nofb=1&ipt=5f2cf007bcc008b22da1862586e0891ffab80e5992942ea3954daadeeac89a1d');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

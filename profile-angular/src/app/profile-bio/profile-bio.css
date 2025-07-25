@@ -1,0 +1,36 @@
+.title-block {
+    background-color: #741491;
+    color: goldenrod;
+    text-shadow: 2px 2px #561979;
+
+    font-family: 'Audiowide', Courier, monospace;
+
+    height: 3em;
+    padding-left: 1em;
+
+    display: flex;
+    align-items: center;
+}
+
+.nav-block {
+    background-color: #08C7ED;
+}
+
+.bio-text {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    opacity: 50%;
+}
+
+.footer-block {
+    background-color: #561979;
+    color: white;
+
+    font-family: 'Courier New', Courier, monospace;
+
+    height: 5em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
