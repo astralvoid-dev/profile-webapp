@@ -6,17 +6,33 @@
     width: 90vw;
     height: fit-content;
     max-width: 800px;
-    max-height: 500px;
     margin: 0 auto;
-    padding: 1%;
 
     border-style: solid;
-    border-width: 10px;
+    border-width: 5px;
     border-radius: 10px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.profile-window-top {
+    width: 100%;
+    background-image: linear-gradient(violet, blueviolet, purple);
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.window-button {
+    background-image: linear-gradient(violet, blueviolet, purple);
+    border-width: 1px;
+    border-color: #561979;
+    font-size: large;
+    color: white;
+    padding: 0.5em 0.5em;
+    font-family: monospace;
 }
 
 /* profile flexbox */
@@ -25,9 +41,9 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    align-content: flex-start;
     align-items: flex-start;
     height: fit-content;
+    padding: 1%;
     gap: 1em;
 }
 
@@ -54,6 +70,8 @@
     font-family: 'Courier New', Courier, monospace;
     color: white;
     flex-grow: 1;
+    word-break: break-word;
+    white-space: normal;
 }
 
 .dashboard {
@@ -63,5 +81,20 @@
     flex-direction: row;
     align-content: center;
     align-items: center;
+    margin: 1%;
     gap: 1em;
+}
+
+.dashboard-button {
+    background-image: linear-gradient(violet, blueviolet, purple);
+    border-width: 1px;
+    border-color: #561979;
+    font-size: x-large;
+    padding: 0.5em 1em;
+    font-family: monospace;
+}
+
+.button-text:link, .button-text:visited {
+    text-decoration: none;
+    color: white;
 }

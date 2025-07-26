@@ -1,5 +1,5 @@
 .title-block {
-    background-color: #741491;
+    background-image: linear-gradient(violet ,#741491, #561979);
     color: goldenrod;
     text-shadow: 2px 2px #561979;
 
@@ -13,17 +13,18 @@
 }
 
 .nav-block {
-    background-color: #08C7ED;
+    background-color: violet;
 }
 
 .bio-text {
     font-family: 'Courier New', Courier, monospace;
-    background-color: white;
-    opacity: 50%;
+    background-color: #741491;
+    color: white;
+    padding: 1em;
 }
 
 .footer-block {
-    background-color: #561979;
+    background-image: linear-gradient(blueviolet, purple, #561979);
     color: white;
 
     font-family: 'Courier New', Courier, monospace;
