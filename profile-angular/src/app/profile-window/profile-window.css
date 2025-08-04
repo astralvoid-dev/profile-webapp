@@ -35,18 +35,6 @@
     font-family: monospace;
 }
 
-/* profile flexbox */
-.profile {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    height: fit-content;
-    padding: 1%;
-    gap: 1em;
-}
-
 .title {
     font-family:'Audiowide', Courier, monospace;
     color: goldenrod;
@@ -54,47 +42,4 @@
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     align-content: center;
-}
-
-#profile-image {
-    width: 50%;
-    min-width: 200px;
-    min-height: 200px;
-
-    flex-grow: 2;
-
-    border-radius: 10px;
-}
-
-#profile-description {
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    flex-grow: 1;
-    word-break: break-word;
-    white-space: normal;
-}
-
-.dashboard {
-    height: fit-content;
-    margin-top: 1em;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    margin: 1%;
-    gap: 1em;
-}
-
-.dashboard-button {
-    background-image: linear-gradient(violet, blueviolet, purple);
-    border-width: 1px;
-    border-color: #561979;
-    font-size: x-large;
-    padding: 0.5em 1em;
-    font-family: monospace;
-}
-
-.button-text:link, .button-text:visited {
-    text-decoration: none;
-    color: white;
 }
