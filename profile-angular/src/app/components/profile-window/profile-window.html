@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+<div class="profile-box" (click)="toggleImportance()" cdkDrag cdkDragBoundary="html">
+    <div class="profile-window-top" cdkDragHandle>
+        <div class="window-title"> {{ windowType | titlecase }} </div>
+        <button class="window-button" (click)="minimizeWindow()">[_]</button>
+        <button class="window-button" (click)="maximizeWindow()">[□]</button>
+        <button class="window-button" (click)="closeWindow()">[X]</button>
+    </div>
+    @if(!windowManager.isMinimized) {
+        <h1 class="title">Astral!Void</h1>
+    }
+    <ng-content/>
+</div>

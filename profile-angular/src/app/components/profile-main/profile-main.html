@@ -4,14 +4,14 @@
         <i>(he/him, {{age}} y/o)</i><br><br>
         Hello World!<br> 
         My name's <b>Void</b>, and I'm the host of this webspace.<br>
-        In here, you can find out more about me,<br> 
+        In here, you can find out more about me,<br>
         my world and the inner machinations of my mind.<br>
         At the same time, I can improve my programming and web design skills.<br>
         I hope you enjoy it! :)
     </p>
 </div>
 <nav class="dashboard">
-    <button class="dashboard-button" (click)="openWindow()"><a class="button-text" routerLink="/bio">Bio</a></button>
-    <button class="dashboard-button"><a class="button-text" routerLink="/bio">Gallery</a></button>
+    <button class="dashboard-button" (click)="openWindow('bio')"><a class="button-text" routerLink="/bio">Bio</a></button>
+    <button class="dashboard-button" (click)="openWindow('gallery')"><a class="button-text" routerLink="/bio">Gallery</a></button>
     <button class="dashboard-button"><a class="button-text" routerLink="/bio">Collections</a></button>
 </nav>

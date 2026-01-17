@@ -1,0 +1,28 @@
+@if (windowManager.isMainOpen) {
+    <app-profile-window [windowType]="'main'" 
+    [ngClass]="{
+        'is-important': windowManager.isMainImportant, 
+        'is-not-important': !windowManager.isMainImportant}">
+        @if (!windowManager.isMainMinimized) {
+            <app-profile-main/>
+        }
+    </app-profile-window>
+}
+@if (windowManager.isBioOpen) {
+    <app-profile-window [windowType]="'bio'" [ngClass]="{
+        'is-important': windowManager.isBioImportant,
+        'is-not-important': !windowManager.isBioImportant}">
+        @if (!windowManager.isBioMinimized) {
+            <app-profile-bio/>
+        }
+    </app-profile-window>
+}
+@if (windowManager.isGalleryOpen) {
+    <app-profile-window [windowType]="'gallery'" [ngClass]="{
+        'is-important': windowManager.isGalleryImportant,
+        'is-not-important': !windowManager.isGalleryImportant}">
+        @if (!windowManager.isGalleryMinimized) {
+            <app-profile-gallery/>
+        }
+    </app-profile-window>
+}

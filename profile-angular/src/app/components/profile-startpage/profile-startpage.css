@@ -1,0 +1,7 @@
+.is-important {
+    z-index: 500;
+}
+
+.is-not-important {
+    z-index: -1;
+}

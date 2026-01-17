@@ -1,0 +1,19 @@
+#bio-text {
+    height: 400px;
+    padding: 2%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkviolet;
+    color: white;
+
+    overflow: auto;
+}
+
+#footer-text {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: bold;
+    padding: 1em;
+
+    display: flex;
+    justify-content: center;
+}
